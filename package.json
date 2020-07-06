@@ -1,16 +1,19 @@
 {
   "name": "fake-smtp-server",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "Fake SMTP Server for email testing",
   "author": "ReachFive",
+  "maintainers": [
+    "DemoniacDeath"
+  ],
   "license": "MIT",
-  "homepage": "https://github.com/ReachFive/fake-smtp-server",
+  "homepage": "https://github.com/DemoniacDeath/fake-smtp-server",
   "bugs": {
-    "url": "https://github.com/ReachFive/fake-smtp-server/issues"
+    "url": "https://github.com/DemoniacDeath/fake-smtp-server/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ReachFive/fake-smtp-server.git"
+    "url": "https://github.com/DemoniacDeath/fake-smtp-server.git"
   },
   "keywords": [
     "smtp",
@@ -32,16 +35,16 @@
   "dependencies": {
     "cli": "1.0.1",
     "express": "4.16.4",
-    "express-basic-auth": "1.1.6",
+    "express-basic-auth": "^1.2.0",
     "lodash": "4.17.11",
-    "mailparser": "2.4.3",
+    "mailparser": "^2.7.7",
     "moment": "2.24.0",
     "smtp-server": "3.5.0"
   },
   "devDependencies": {
     "react": "16.8.3",
     "react-dom": "16.8.3",
-    "react-scripts": "2.1.5",
+    "react-scripts": "^3.4.1",
     "react-transition-group": "2.6.0",
     "reactstrap": "7.1.0"
   },
